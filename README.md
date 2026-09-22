@@ -56,11 +56,15 @@ The dashboard verifies its recent event window before displaying readings and wi
 ### An operator dashboard
 
 The Flask dashboard brings together:
-
+<img width="1536" height="675" alt="image" src="https://github.com/user-attachments/assets/c8455b43-b937-49a7-8815-08ec739a3987" />
 - Recent temperature readings and RFID activity.
+<img width="1536" height="679" alt="image" src="https://github.com/user-attachments/assets/1b198f72-6fa2-4cb9-bd7c-f1e6e41fb140" />
 - Freshness and simulation indicators.
+- <img width="1536" height="667" alt="image" src="https://github.com/user-attachments/assets/c88eb183-0e13-4418-8e7d-1040158131ae" />
 - Charts based on stored, verified events.
+<img width="1536" height="669" alt="image" src="https://github.com/user-attachments/assets/14b53f9c-68e8-4b7b-9b98-838a6c2f5c69" />
 - Security rejection history and recent high-priority banners.
+<img width="1536" height="669" alt="image" src="https://github.com/user-attachments/assets/9e2e60c5-4571-4277-bdf0-4026488ab84c" />
 - Gemini-generated advisory reports.
 
 Operator access is separate from device ingestion. In the prototype deployment, the dashboard requires an operator login and is accessed through an SSH tunnel to a loopback-only listener.
@@ -166,10 +170,10 @@ These are roadmap items, not claims about the current release.
 
 RackGuard was developed by a four-member team combining:
 
-- **Networking and team leadership:** connectivity, VM deployment, integration troubleshooting and demonstration coordination.
-- **Computer science:** application integration, security controls, persistence and testing.
-- **Artificial intelligence:** advisory analysis integration and interpretation of observations.
-- **Mechatronics:** sensor wiring, hardware integration and physical validation.
+- **Networking (Sofea):** connectivity, VM deployment, integration troubleshooting and demonstration coordination.
+- **Mechatronics (Kamal):** sensor wiring, hardware integration and physical validation.
+- **Artificial intelligence (Nureen):** advisory analysis integration and interpretation of observations.
+- **Computer science (Putri):** application integration, security controls, persistence and testing.
 
 Thank you to the Track 3 mentors and organizers for their guidance, practical challenges and feedback throughout the event.
 
