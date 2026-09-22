@@ -1,0 +1,15 @@
+{
+  "server_url": "https://172.16.40.10:18443/events",
+  "device_id": "coldguard-pi-01",
+  "log_dir": "~/.local/state/coldguard",
+  "sensor_interval_seconds": 5,
+  "request_timeout_seconds": 5,
+  "failure_backoff_seconds": 10,
+  "signing_private_key": "~/.config/rackguard/pi/signing.key",
+  "rfid_key_path": "~/.config/coldguard/rfid.key",
+  "tls": {
+    "ca": "~/.config/rackguard/pi/ca.crt",
+    "cert": "~/.config/rackguard/pi/client.crt",
+    "key": "~/.config/rackguard/pi/tls.key"
+  }
+}

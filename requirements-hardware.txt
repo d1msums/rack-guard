@@ -1,0 +1,8 @@
+-r requirements.txt
+adafruit-blinka
+adafruit-circuitpython-pn532
+
+RPLCD
+smbus2
+gpiozero
+lgpio

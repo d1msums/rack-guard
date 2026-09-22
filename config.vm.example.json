@@ -1,0 +1,20 @@
+{
+  "log_dir": "~/.local/state/coldguard",
+  "devices": {
+    "coldguard-pi-01": {
+      "signing_public_key": "~/.config/rackguard/vm/pi-signing.pub",
+      "tls_fingerprint_sha256": "REPLACE_WITH_CLIENT_CERT_SHA256"
+    }
+  },
+  "authorized_cards": {},
+  "max_payload_bytes": 8192,
+  "rate_limit": {
+    "requests_per_minute": 36,
+    "burst": 8
+  },
+  "tls": {
+    "ca": "~/.config/rackguard/vm/ca.crt",
+    "cert": "~/.config/rackguard/vm/server.crt",
+    "key": "~/.config/rackguard/vm/tls.key"
+  }
+}
