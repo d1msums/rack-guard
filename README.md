@@ -213,7 +213,7 @@ AI-assisted development tools supported parts of implementation and documentatio
 
 ## Explore the project
 
-- [Source repository](https://github.com/d1msums/rackguard)
+- [Source repository](https://github.com/d1msums/rack-guard)
 - [Deployment notes](START_HERE.md)
 - [Recorded test results](TEST_RESULTS.md)
 
