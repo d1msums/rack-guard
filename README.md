@@ -88,7 +88,7 @@ Charts present recent stored events that passed the dashboard's verification che
 
 Rejection history and recent high-priority banners show when an application-level security check failed.
 
-![RackGuard AI Analyzer displaying a Gemini advisory report](https://github.com/user-attachments/assets/9e2e60c5-4571-4277-bdf0-4026488ab84c)
+<img width="1536" height="677" alt="image" src="https://github.com/user-attachments/assets/e9be1e6c-75d7-47d1-a729-d1dd708a623f" />
 
 </details>
 
