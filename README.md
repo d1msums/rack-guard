@@ -1,6 +1,6 @@
 # RackGuard
 
-### Verified IoT telemetry for data-centre monitoring
+### Verified IoT telemetry for data centre monitoring
 
 **A reading is useful. Knowing why you can accept it is better.**
 
@@ -8,7 +8,7 @@ RackGuard is a security-focused IoT prototype that connects temperature and RFID
 
 > How can an operator distinguish accepted telemetry from a message that has been altered, replayed or submitted without the right credentials?
 
-Our four-person team brought together networking, computer science, AI and mechatronics to build the system—from the physical sensors to the operator dashboard.
+Our four-person team brought together networking, computer science, AI and mechatronics to build the system from the physical sensors to the operator dashboard.
 
 **Project status:** hackathon prototype · **Validation:** 44 automated tests passed locally on the consolidated v8 package · **AI role:** advisory only
 
@@ -56,14 +56,19 @@ The dashboard verifies its recent event window before displaying readings and wi
 ### An operator dashboard
 
 The Flask dashboard brings together:
+
 <img width="1536" height="675" alt="image" src="https://github.com/user-attachments/assets/c8455b43-b937-49a7-8815-08ec739a3987" />
 - Recent temperature readings and RFID activity.
+
 <img width="1536" height="679" alt="image" src="https://github.com/user-attachments/assets/1b198f72-6fa2-4cb9-bd7c-f1e6e41fb140" />
 - Freshness and simulation indicators.
+
 - <img width="1536" height="667" alt="image" src="https://github.com/user-attachments/assets/c88eb183-0e13-4418-8e7d-1040158131ae" />
 - Charts based on stored, verified events.
+  
 <img width="1536" height="669" alt="image" src="https://github.com/user-attachments/assets/14b53f9c-68e8-4b7b-9b98-838a6c2f5c69" />
 - Security rejection history and recent high-priority banners.
+  
 <img width="1536" height="669" alt="image" src="https://github.com/user-attachments/assets/9e2e60c5-4571-4277-bdf0-4026488ab84c" />
 - Gemini-generated advisory reports.
 
