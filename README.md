@@ -55,24 +55,51 @@ The dashboard verifies its recent event window before displaying readings and wi
 
 ### An operator dashboard
 
-The Flask dashboard brings together:
-
-<img width="1536" height="675" alt="image" src="https://github.com/user-attachments/assets/c8455b43-b937-49a7-8815-08ec739a3987" />
-- Recent temperature readings and RFID activity.
-
-<img width="1536" height="679" alt="image" src="https://github.com/user-attachments/assets/1b198f72-6fa2-4cb9-bd7c-f1e6e41fb140" />
-- Freshness and simulation indicators.
-
-- <img width="1536" height="667" alt="image" src="https://github.com/user-attachments/assets/c88eb183-0e13-4418-8e7d-1040158131ae" />
-- Charts based on stored, verified events.
-  
-<img width="1536" height="669" alt="image" src="https://github.com/user-attachments/assets/14b53f9c-68e8-4b7b-9b98-838a6c2f5c69" />
-- Security rejection history and recent high-priority banners.
-  
-<img width="1536" height="669" alt="image" src="https://github.com/user-attachments/assets/9e2e60c5-4571-4277-bdf0-4026488ab84c" />
-- Gemini-generated advisory reports.
+The Flask dashboard connects live monitoring, security evidence and advisory analysis in one operator interface. Explore the views below; each screenshot can be opened at full size.
 
 Operator access is separate from device ingestion. In the prototype deployment, the dashboard requires an operator login and is accessed through an SSH tunnel to a loopback-only listener.
+
+#### Live overview
+
+Recent temperature readings and RFID activity give the operator a view of incoming telemetry.
+
+![RackGuard dashboard showing recent temperature readings and RFID activity](https://github.com/user-attachments/assets/c8455b43-b937-49a7-8815-08ec739a3987)
+
+<details>
+<summary><strong>View monitoring status and indicators</strong></summary>
+
+Freshness and simulation indicators help distinguish current observations from stale or simulated data.
+
+![RackGuard monitoring status and data indicators](https://github.com/user-attachments/assets/1b198f72-6fa2-4cb9-bd7c-f1e6e41fb140)
+
+</details>
+
+<details>
+<summary><strong>View telemetry analytics</strong></summary>
+
+Charts present recent stored events that passed the dashboard's verification checks.
+
+![RackGuard analytics charts for verified telemetry](https://github.com/user-attachments/assets/c88eb183-0e13-4418-8e7d-1040158131ae)
+
+</details>
+
+<details open>
+<summary><strong>View security alerts</strong></summary>
+
+Rejection history and recent high-priority banners show when an application-level security check failed.
+
+![RackGuard security alerts and rejection history](https://github.com/user-attachments/assets/14b53f9c-68e8-4b7b-9b98-838a6c2f5c69)
+
+</details>
+
+<details>
+<summary><strong>View Gemini advisory analysis</strong></summary>
+
+Gemini-generated reports explain filtered observations and suggest checks. Reports are advisory and do not control authorization.
+
+![RackGuard AI Analyzer displaying a Gemini advisory report](https://github.com/user-attachments/assets/9e2e60c5-4571-4277-bdf0-4026488ab84c)
+
+</details>
 
 ### AI assistance without AI enforcement
 
