@@ -163,8 +163,6 @@ Automated tests do not establish physical hardware correctness, production readi
 - **Interface:** HTML, CSS and JavaScript with local dashboard assets.
 - **AI:** Gemini API, invoked by a separate VM-side worker.
 
-Some internal paths and identifiers retain the earlier **ColdGuard** name to preserve compatibility with the project's original deployment. RackGuard is the final data-centre monitoring concept.
-
 ## What we learned
 
 **An authenticated connection is only one part of trust.** A device can establish a valid connection while submitting a message that fails an independent check.
@@ -202,8 +200,8 @@ These are roadmap items, not claims about the current release.
 
 RackGuard was developed by a four-member team combining:
 
-- **Networking (Sofea):** connectivity, VM deployment, integration troubleshooting and demonstration coordination.
-- **Mechatronics (Kamal):** sensor wiring, hardware integration and physical validation.
+- **Networking (Sofea):** connectivity, VM deployment and integration troubleshooting. 
+- **Mechatronics (Kamal):** sensor wiring, hardware integration, physical validation, contributing ideas to strengthen system security, and integrating RFID hashing.
 - **Artificial intelligence (Nureen):** advisory analysis integration and interpretation of observations.
 - **Computer science (Putri):** application integration, security controls, persistence and testing.
 
